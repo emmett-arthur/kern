@@ -159,6 +159,18 @@ body {
 .c-label { font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
 .book-panel { display: flex; flex-direction: column; }
 .book-desc  { font-family: var(--body); font-size: 13px; font-weight: 400; color: var(--mid); line-height: 1.75; margin-bottom: 20px; flex: 1; }
+.email-row { display: flex; gap: 8px; align-items: stretch; }
+.email-row .btn-book { flex: 1; }
+.btn-copy {
+  display: flex; align-items: center; justify-content: center;
+  width: 38px; flex-shrink: 0;
+  background: var(--green-pale); border: 1px solid rgba(90,122,43,0.2);
+  border-radius: 3px; color: var(--green); cursor: pointer;
+  transition: background 0.2s, color 0.15s;
+}
+.btn-copy:hover { background: #deeacc; }
+.btn-copy.copied { background: var(--green); color: #fff; }
+
 .btn-book {
   display: flex; align-items: center; justify-content: space-between;
   background: var(--green-pale); border: 1px solid rgba(90,122,43,0.2);
