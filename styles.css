@@ -255,7 +255,7 @@ button:focus-visible {
   .svc-grid { grid-template-columns: 1fr; column-gap: 0; }
   .svc-item:first-child { border-top: none; }
   .founder-grid { grid-template-columns: 1fr; gap: var(--space-5); }
-  .founder-img  { width: 100%; height: 280px; flex: none; }
+  .founder-img  { width: 100%; height: 340px; flex: none; }
 
   /* comfortable tap targets */
   .btn-action { padding: 14px 14px; }
